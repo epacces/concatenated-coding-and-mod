@@ -2,46 +2,31 @@
 
 ## Introduction
 
-Satellite communications provide unique solutions for a variety of communication and strategic applications that are only possible in the satellite environment. These applications typically include:
+Satellite communications offer unique solutions for various communication and strategic applications that are only achievable within the satellite environment. These applications encompass:
 
-- Multimedia communications provided to wide geographical areas with low population density. In this case, satellite deployment is less expensive than building a corresponding terrestrial network to provide the same service.
-- Maritime communications (e.g., Inmarsat) also associated with radio-navigation systems.
-- Television broadcasting: a single signal is broadcasted to a wide community of users, making satellite usage more economically efficient compared to a network of local broadcasting stations to cover the same geographical area.
-- Earth observation and monitoring systems offering distinctive potential for strategic (military and commercial) information gathering.
+- Delivering multimedia communications to wide geographical areas with low population density. In such scenarios, deploying satellites proves to be more cost-effective than building terrestrial networks for the same service.
 
-All of the above applications require medium to high data rate communication links, which need to be implemented with the resources typical of a spacecraft. Clearly, the available onboard power, weight, and antenna size are limited. This leads to the need to promote state-of-the-art research in modulation and coding, as well as synchronization techniques, to operate as close as possible to the ultimate limits of performance, at very low signal-to-noise ratios, and to save as much bandwidth as possible. Additionally, this bandwidth has to be shared among various coexisting satellites and terrestrial applications.
+- Facilitating maritime communications (e.g., Inmarsat), often intertwined with radio-navigation systems.
 
-Hence, state-of-the-art satellite communications for Earth Observation and Telecommunications, among the most appealing applications requiring high data rate modems, are characterized by the need for both maximum information throughput and minimum power and bandwidth consumption. These requirements are evidently contradictory with a theoretical relationship stated by the Shannon Bound. Additionally, available bandwidth, data rate, and signal-to-noise ratio specifications vary from one specific mission to another. An ideal all-purpose MODEM unit, flexible for any mission application and hence commercially appealing, should have the following features:
+- Supporting television broadcasting, where a single signal is broadcasted to a broad user community. This approach enhances cost-efficiency compared to establishing a network of local broadcasting stations covering the same geographical expanse.
 
-- Flexible configurability of data rate and allocated bandwidth.
-- High variability of signal-to-noise ratio during operation.
-- Performance always at a maximum of 1 dB from the Shannon Capacity Bound (fixed modulation and coding quality).
-- Efficient utilization of power and hardware resources for processing.
+- Enabling Earth observation and monitoring systems, presenting distinct potential for strategic information gathering, both in military and commercial contexts.
 
-Such a modem would enable a unique off-the-shelf solution, matching the needs of almost all missions for Earth Observation and extra-high-speed telecommunications.
+All these applications demand medium to high data rate communication links, necessitating the use of resources typical of spacecraft. However, constraints such as limited onboard power, weight, and antenna size underscore the need for cutting-edge research in modulation, coding, and synchronization techniques. These techniques should operate effectively at very low signal-to-noise ratios while conserving bandwidth, which must be shared among multiple coexisting satellites and terrestrial applications.
 
-The novel DVB-S2 modulation and coding scheme, as well as the Modem for Higher Order Modulation Schemes (MHOMS) performance, are so close to the Shannon Bound that they are expected to set the modulation and coding baseline for many years to come. The MHOMS program was financed by the European Space Agency (ESA). The envisaged MHOMS modem application scenarios will encompass, at a minimum:
-
-- High-speed distributed Internet access.
-- Trunk connectivity (backbone/backhaul).
-- Earth observation high-speed downlink.
-- Point-to-multipoint applications (e.g., high-speed multicasting/broadcasting).
-
-Further details on MHOMS are available in references [1] and [2].
+Consequently, state-of-the-art satellite communications for Earth Observation and Telecommunications, especially those
 
 ## Remote Sensing and Earth Observation
 
-Earth observation satellites play a pivotal role in both the civilian and military sectors, monitoring nearly all aspects of our planet. This technology provides truly global coverage, particularly over vast expanses of the oceans and sparsely populated land areas such as deserts, mountains, forests, and polar regions.
+Earth observation satellites play a pivotal role in both civilian and military sectors, monitoring various aspects of our planet comprehensively. This technology stands as the sole method capable of providing truly global coverage, particularly over vast expanses like oceans and sparsely populated regions (e.g., deserts, mountains, forests, and polar areas).
 
-Earth observation data are utilized by over 300 research teams, small high-tech firms, large corporations, and public agencies, including meteorological offices. They use Earth-observation data for operational and commercial purposes.
+Earth observation data serves more than 300 research teams, small high-tech firms, large corporations, and public agencies (such as meteorological offices) for both operational and commercial purposes.
 
-To provide professional services such as oceanography, meteorology, climatology, etc., Earth observation satellites require a high capacity to acquire and process a large volume of images on a daily basis. For example, in full constellation configuration, COSMO-Sky-Med can acquire up to 560 GB per day, roughly corresponding to 1800 standard images.
+To provide professional services like oceanography, meteorology, climatology, and more to end-users, Earth observation satellites require a high capacity to acquire and process large volumes of images daily. For instance, COSMO-Sky-Med, in full constellation configuration, can acquire up to 560 GB per day, roughly equivalent to 1800 standard images.
 
-COSMO-SkyMed, an interoperable system [3], serves as an excellent example of a telecommunications integrated system capable of supporting data exchange with other external observation systems using agreed modalities and standard protocols. COSMO-SkyMed, a low-orbit, dual-use Earth observation satellite system operating in the X-band, is funded by the Italian Ministry of Research (MIUR) and Ministry of Defense, managed by the Italian space agency (ASI). COSMO-SkyMed 1 successfully launched on June 7th, 2007, and COSMO-SkyMed 2 on December 10, 2007.
+The COSMO-SkyMed interoperable system is an outstanding example of a telecommunications integrated system, enabling data exchange with other external observation systems using agreed modalities and standard protocols. This system operates in the X-band and consists of low-orbit, dual-use Earth observation satellites funded by the Italian Ministry of Research (MIUR) and Ministry of Defense, managed by the Italian space agency (ASI). Thales Alenia Space is the prime contractor, responsible for the development and construction of the entire COSMO-SkyMed system, including both the space and ground segments.
 
-Thales Alenia Space is the program's prime contractor, responsible for developing and constructing the entire COSMO-SkyMed system, including the space segment with four satellites equipped with high-resolution X-band synthetic aperture radars (SAR). The ground segment, a sophisticated turnkey geographically distributed infrastructure, is realized by Telespazio. It includes the satellite control segment, mission planning segment, civilian user segment, defense user segment, mobile processing stations, and programming cells. Thales Alenia Space is also responsible for the mission simulator, integrated logistics, and all operations up to the delivery of the constellation.
-
-COSMO-SkyMed's system performance is characterized by three key aspects: the space constellation's short revisit time for global Earth coverage, the short system response time, and the multi-mode SAR instrument's imaging performance. COSMO-SkyMed utilizes satellites equipped with advanced remote sensing technology, offering a resolution of less than one meter, and a complex, geographically distributed ground segment. This high image performance is achieved through the versatile SAR instrument, capable of acquiring images in different modes and generating data with varying scene sizes and resolutions, covering a wide range of applications.
+Three key aspects characterize COSMO-SkyMed's system performance: the short revisit time of the space constellation for global Earth coverage, the rapid system response time, and the versatile multi-mode SAR (Synthetic Aperture Radar) instrument's imaging performance. These satellites employ advanced remote sensing technology, offering a resolution of less than one meter, and a complex, geographically distributed ground segment. The high image performance is achieved through the SAR instrument's ability to acquire images in different modes and generate data with varying scene sizes and resolutions, covering a wide range of applications.
 
 Synthetic Aperture Radars (SARs) are primarily used to acquire high-resolution images in large quantities. Thales Alenia Space played a significant role in the development of the X-SAR (SAR operating in X band) space and ground segments. X-SAR is a joint project between NASA, the German space agency (DARA), and the Italian space agency (ASI) as part of NASA's "Mission to Planet Earth." X-SAR can measure virtually any region of the Earth in all weather and lighting conditions, penetrate vegetation, ice, and dry sand, and map the surface, providing scientists with detailed information on climatic and geological processes, hydrological cycles, and ocean circulation.
 
@@ -96,8 +81,7 @@ The high flexibility of DVB-S2 allows it to handle various satellite transponder
 Taking a closer look at the possible applications and relevant definitions, we can see that the DVB-S2 system has been optimized for the following broadband satellite application scenarios:
 
 - **Broadcast Services (BS):** Digital multi-program Television (TV)/High Definition Television (HDTV) broadcasting services. DVB-S2 is intended to provide Direct-To-Home (DTH) services for consumer Integrated Receiver Decoder (IRD), as well as collective antenna systems (Satellite Master Antenna Television - SMATV) and cable television head-end stations. DVB-S2 may be considered a successor to the current DVB-S standard and may be introduced for new services and allow for a long-term migration. BS services are transported in MPEG Transport Stream format. VCM may be applied to multiple transport streams to achieve differentiated error protection for different services (TV, HDTV, audio, multimedia).
-  
-- **Interactive Services (IS):** Interactive data services, including internet access. DVB-S2 is intended to provide interactive services to consumer IRDs and personal computers. No recommendation is included in the DVB-S and DVB-S2 standards regarding the return path. Therefore, interactivity can be established either via terrestrial connections through telephone lines or via satellite. Data services are transported in (single or multiple) Transport Stream format or in (single or multiple) generic stream format. DVB-S2 can provide Constant Coding and Modulation (CCM) or ACM, where each individual satellite receiving station controls the protection mode of the traffic addressed to it.
-  
-- **DTVC and DSNG:** Digital TV Contribution and Satellite News Gathering. Digital television contribution applications by satellite consist of point-to-point or point-to-multipoint transmissions, connecting fixed or transportable uplink and receiving stations. Services are transported in single (or multiple) MPEG Transport Stream format. DVB-S2 can provide Constant Coding and Modulation (CCM) or Adaptive Coding and Modulation (ACM). In this latter case, a single satellite receiving station typically controls the protection mode of the full multiplex.
 
+- **Interactive Services (IS):** Interactive data services, including internet access. DVB-S2 is intended to provide interactive services to consumer IRDs and personal computers. No recommendation is included in the DVB-S and DVB-S2 standards regarding the return path. Therefore, interactivity can be established either via terrestrial connections through telephone lines or via satellite. Data services are transported in (single or multiple) Transport Stream format or in (single or multiple) generic stream format. DVB-S2 can provide Constant Coding and Modulation (CCM) or ACM, where each individual satellite receiving station controls the protection mode of the traffic addressed to it.
+
+- **DTVC and DSNG:** Digital TV Contribution and Satellite News Gathering. Digital television contribution applications by satellite consist of point-to-point or point-to-multipoint transmissions, connecting fixed or transportable uplink and receiving stations. Services are transported in single (or multiple) MPEG Transport Stream format. DVB-S2 can provide Constant Coding and Modulation (CCM) or Adaptive Coding and Modulation (ACM). In this latter case, a single satellite receiving station typically controls the protection mode of the full multiplex.
