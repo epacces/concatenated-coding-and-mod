@@ -27,7 +27,7 @@ Modulation formats provided by DVB-S2 include:
 - QPSK and 8-PSK, suitable for broadcast applications.
 - 16-APSK and 32-APSK, usable for broadcasting but with higher \(C/N\) ratio requirements and the need for pre-distortion techniques.
 
-![QPSK and 8-PSK DVB-S2 constellations](figure-link-here) *Figure: QPSK and 8-PSK DVB-S2 constellations with normalized radius $\(\rho=1\)$*
+![QPSK and 8-PSK DVB-S2 constellations](figure-link-here) *Figure: QPSK and 8-PSK DVB-S2 constellations with normalized radius $`\(\rho=1\)`$*
 
 ![APSK constellations](figure-link-here) *Figure: APSK constellations with normalized mean energy*
 
