@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Satellite communications provide unique solutions for a number of communications and strategic applications that are possible only using the satellite environment. These applications are typically 'nice' applications, such as:
+Satellite communications provide unique solutions for a number of communications and strategic applications that are possible only using the satellite environment. These applications are typically niche applications, such as:
 
 - Multimedia communications provided to wide geographical areas with low population density; in this case, the deployment of the satellite is less expensive than the corresponding terrestrial network to provide the same service;
 - Maritime communications (e.g., Inmarsat) also associated with radio-navigation systems;
