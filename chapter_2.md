@@ -38,12 +38,17 @@ As formulated by Shannon in 1948, the fundamental challenge in communication is 
 From an engineering perspective, Shannon's work established a crucial link between the mean power available at transmitters and communication reliability. One of the central objectives in satellite applications is to strike the right balance between available power and channel bandwidth, given limited on-board power resources. Shannon's theorem defines a limit on communication performance based on channel capacity, characterized by bandwidth, noise power spectral density, and signal power.
 
 This fundamental relationship is expressed as:
-\[C = W \log_2\left(1+\frac{P}{N_0W}\right) \text{ bps}\]
+\[
+C = W \log_2\left(1+\frac{P}{N_0W}\right) \text{ bps}
+\]
 where \(C\) is capacity, \(W\) is bandwidth, \(P\) is signal power, and \(N_0\) is noise power spectral density.
 
 The Shannon Bound defines the lowest power threshold required for reliable communication, ensuring that:
-\[\frac{E_b}{N_0} > 0.693\text{ dB}\]
+\[
+\frac{E_b}{N_0} > 0.693\text{ dB}
+\]
 
 In practice, the performance of a communication system can be represented as a point on the Shannon Bound curve, with closer points indicating superior system performance. Spectral efficiency and power efficiency are crucial considerations when optimizing communication systems.
 
 For a detailed performance analysis of modulation and coding schemes in the DVB-S2 modulator, refer to Section XYZ.
+
